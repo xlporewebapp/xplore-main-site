@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #00ffff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header {
+  padding: 2rem;
+  background: linear-gradient(to right, #00bcd4, #1de9b6);
+  color: white;
+}
+.logo {
+  height: 80px;
+}
+nav a {
+  margin: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #00ffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out;
+}
+nav a:hover {
+  background: #1de9b6;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
